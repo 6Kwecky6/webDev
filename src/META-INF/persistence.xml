@@ -1,0 +1,12 @@
+
+<persistence xmlns="http://xmlns.jcp.org/xml/ns/persistence" version="2.1">
+    <persistence-unit name="kontoManager" transaction-type="RESOURCE_LOCAL">
+        <class>Oving5.konto</class>
+        <properties>
+            <property name="javax.persistence.jdbc.user" value="kevinah"/>
+            <property name="javax.persistence.jdbc.password" value="6Z8ze29v"/>
+            <property name="javax.persistence.jdbc.url" value="jdbc:mysql://mysql.stud.iie.ntnu.no:3306/kevinah"/>
+            <property name="javax.persistence.jdbc.driver" value="com.mysql.jdbc.Driver"/>
+        </properties>
+    </persistence-unit>
+</persistence>
